@@ -16,13 +16,13 @@ class Message {
   send(author, text){
   this. message.push(new Message(author, text));
   }
-  show_history(){
+  appear_history(){
   this.messages.forEach(message =>{
   console.log(message.toString());
   });
   }
   }
   let messenger = new Messenger ();
-  messenger.send ('Artem', 'first message');
-  messenger.send ('Maria', 'second message');
-  messenger.show_history();
+  messenger.send ('Artem', 'the first message');
+  messenger.send ('Maria', 'the second message');
+  messenger.appear_history();
