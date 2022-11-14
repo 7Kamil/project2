@@ -1,5 +1,5 @@
 function gettime() {
-    let now = new Date();
+    let = new Date();
     return `${now. getHours()}: ${now.getMinutes()}`
     }
 class Message {
@@ -13,7 +13,6 @@ class Message {
  }
  toString() {
   messages = [];
-  
   send(author, text){
   this. message.push(new Message(author, text));
   }
